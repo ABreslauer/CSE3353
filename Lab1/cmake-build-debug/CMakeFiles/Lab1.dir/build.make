@@ -80,19 +80,175 @@ CMakeFiles/Lab1.dir/main.cpp.obj.provides: CMakeFiles/Lab1.dir/main.cpp.obj.requ
 CMakeFiles/Lab1.dir/main.cpp.obj.provides.build: CMakeFiles/Lab1.dir/main.cpp.obj
 
 
+CMakeFiles/Lab1.dir/algorithm.cpp.obj: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/algorithm.cpp.obj: ../algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab1.dir/algorithm.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab1.dir\algorithm.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab1\algorithm.cpp
+
+CMakeFiles/Lab1.dir/algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/algorithm.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab1\algorithm.cpp > CMakeFiles\Lab1.dir\algorithm.cpp.i
+
+CMakeFiles/Lab1.dir/algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/algorithm.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab1\algorithm.cpp -o CMakeFiles\Lab1.dir\algorithm.cpp.s
+
+CMakeFiles/Lab1.dir/algorithm.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab1.dir/algorithm.cpp.obj.requires
+
+CMakeFiles/Lab1.dir/algorithm.cpp.obj.provides: CMakeFiles/Lab1.dir/algorithm.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/algorithm.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab1.dir/algorithm.cpp.obj.provides
+
+CMakeFiles/Lab1.dir/algorithm.cpp.obj.provides.build: CMakeFiles/Lab1.dir/algorithm.cpp.obj
+
+
+CMakeFiles/Lab1.dir/bubbleSort.cpp.obj: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/bubbleSort.cpp.obj: ../bubbleSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab1.dir/bubbleSort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab1.dir\bubbleSort.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab1\bubbleSort.cpp
+
+CMakeFiles/Lab1.dir/bubbleSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/bubbleSort.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab1\bubbleSort.cpp > CMakeFiles\Lab1.dir\bubbleSort.cpp.i
+
+CMakeFiles/Lab1.dir/bubbleSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/bubbleSort.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab1\bubbleSort.cpp -o CMakeFiles\Lab1.dir\bubbleSort.cpp.s
+
+CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.requires
+
+CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.provides: CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.provides
+
+CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.provides.build: CMakeFiles/Lab1.dir/bubbleSort.cpp.obj
+
+
+CMakeFiles/Lab1.dir/generateFiles.cpp.obj: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/generateFiles.cpp.obj: ../generateFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab1.dir/generateFiles.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab1.dir\generateFiles.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab1\generateFiles.cpp
+
+CMakeFiles/Lab1.dir/generateFiles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/generateFiles.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab1\generateFiles.cpp > CMakeFiles\Lab1.dir\generateFiles.cpp.i
+
+CMakeFiles/Lab1.dir/generateFiles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/generateFiles.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab1\generateFiles.cpp -o CMakeFiles\Lab1.dir\generateFiles.cpp.s
+
+CMakeFiles/Lab1.dir/generateFiles.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab1.dir/generateFiles.cpp.obj.requires
+
+CMakeFiles/Lab1.dir/generateFiles.cpp.obj.provides: CMakeFiles/Lab1.dir/generateFiles.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/generateFiles.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab1.dir/generateFiles.cpp.obj.provides
+
+CMakeFiles/Lab1.dir/generateFiles.cpp.obj.provides.build: CMakeFiles/Lab1.dir/generateFiles.cpp.obj
+
+
+CMakeFiles/Lab1.dir/insertionSort.cpp.obj: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/insertionSort.cpp.obj: ../insertionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab1.dir/insertionSort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab1.dir\insertionSort.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab1\insertionSort.cpp
+
+CMakeFiles/Lab1.dir/insertionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/insertionSort.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab1\insertionSort.cpp > CMakeFiles\Lab1.dir\insertionSort.cpp.i
+
+CMakeFiles/Lab1.dir/insertionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/insertionSort.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab1\insertionSort.cpp -o CMakeFiles\Lab1.dir\insertionSort.cpp.s
+
+CMakeFiles/Lab1.dir/insertionSort.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab1.dir/insertionSort.cpp.obj.requires
+
+CMakeFiles/Lab1.dir/insertionSort.cpp.obj.provides: CMakeFiles/Lab1.dir/insertionSort.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/insertionSort.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab1.dir/insertionSort.cpp.obj.provides
+
+CMakeFiles/Lab1.dir/insertionSort.cpp.obj.provides.build: CMakeFiles/Lab1.dir/insertionSort.cpp.obj
+
+
+CMakeFiles/Lab1.dir/mergeSort.cpp.obj: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/mergeSort.cpp.obj: ../mergeSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Lab1.dir/mergeSort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab1.dir\mergeSort.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab1\mergeSort.cpp
+
+CMakeFiles/Lab1.dir/mergeSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/mergeSort.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab1\mergeSort.cpp > CMakeFiles\Lab1.dir\mergeSort.cpp.i
+
+CMakeFiles/Lab1.dir/mergeSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/mergeSort.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab1\mergeSort.cpp -o CMakeFiles\Lab1.dir\mergeSort.cpp.s
+
+CMakeFiles/Lab1.dir/mergeSort.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab1.dir/mergeSort.cpp.obj.requires
+
+CMakeFiles/Lab1.dir/mergeSort.cpp.obj.provides: CMakeFiles/Lab1.dir/mergeSort.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/mergeSort.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab1.dir/mergeSort.cpp.obj.provides
+
+CMakeFiles/Lab1.dir/mergeSort.cpp.obj.provides.build: CMakeFiles/Lab1.dir/mergeSort.cpp.obj
+
+
+CMakeFiles/Lab1.dir/sort.cpp.obj: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/sort.cpp.obj: ../sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Lab1.dir/sort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab1.dir\sort.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab1\sort.cpp
+
+CMakeFiles/Lab1.dir/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/sort.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab1\sort.cpp > CMakeFiles\Lab1.dir\sort.cpp.i
+
+CMakeFiles/Lab1.dir/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/sort.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab1\sort.cpp -o CMakeFiles\Lab1.dir\sort.cpp.s
+
+CMakeFiles/Lab1.dir/sort.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab1.dir/sort.cpp.obj.requires
+
+CMakeFiles/Lab1.dir/sort.cpp.obj.provides: CMakeFiles/Lab1.dir/sort.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/sort.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab1.dir/sort.cpp.obj.provides
+
+CMakeFiles/Lab1.dir/sort.cpp.obj.provides.build: CMakeFiles/Lab1.dir/sort.cpp.obj
+
+
 # Object files for target Lab1
 Lab1_OBJECTS = \
-"CMakeFiles/Lab1.dir/main.cpp.obj"
+"CMakeFiles/Lab1.dir/main.cpp.obj" \
+"CMakeFiles/Lab1.dir/algorithm.cpp.obj" \
+"CMakeFiles/Lab1.dir/bubbleSort.cpp.obj" \
+"CMakeFiles/Lab1.dir/generateFiles.cpp.obj" \
+"CMakeFiles/Lab1.dir/insertionSort.cpp.obj" \
+"CMakeFiles/Lab1.dir/mergeSort.cpp.obj" \
+"CMakeFiles/Lab1.dir/sort.cpp.obj"
 
 # External object files for target Lab1
 Lab1_EXTERNAL_OBJECTS =
 
 Lab1.exe: CMakeFiles/Lab1.dir/main.cpp.obj
+Lab1.exe: CMakeFiles/Lab1.dir/algorithm.cpp.obj
+Lab1.exe: CMakeFiles/Lab1.dir/bubbleSort.cpp.obj
+Lab1.exe: CMakeFiles/Lab1.dir/generateFiles.cpp.obj
+Lab1.exe: CMakeFiles/Lab1.dir/insertionSort.cpp.obj
+Lab1.exe: CMakeFiles/Lab1.dir/mergeSort.cpp.obj
+Lab1.exe: CMakeFiles/Lab1.dir/sort.cpp.obj
 Lab1.exe: CMakeFiles/Lab1.dir/build.make
 Lab1.exe: CMakeFiles/Lab1.dir/linklibs.rsp
 Lab1.exe: CMakeFiles/Lab1.dir/objects1.rsp
 Lab1.exe: CMakeFiles/Lab1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Lab1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lab1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,6 +257,12 @@ CMakeFiles/Lab1.dir/build: Lab1.exe
 .PHONY : CMakeFiles/Lab1.dir/build
 
 CMakeFiles/Lab1.dir/requires: CMakeFiles/Lab1.dir/main.cpp.obj.requires
+CMakeFiles/Lab1.dir/requires: CMakeFiles/Lab1.dir/algorithm.cpp.obj.requires
+CMakeFiles/Lab1.dir/requires: CMakeFiles/Lab1.dir/bubbleSort.cpp.obj.requires
+CMakeFiles/Lab1.dir/requires: CMakeFiles/Lab1.dir/generateFiles.cpp.obj.requires
+CMakeFiles/Lab1.dir/requires: CMakeFiles/Lab1.dir/insertionSort.cpp.obj.requires
+CMakeFiles/Lab1.dir/requires: CMakeFiles/Lab1.dir/mergeSort.cpp.obj.requires
+CMakeFiles/Lab1.dir/requires: CMakeFiles/Lab1.dir/sort.cpp.obj.requires
 
 .PHONY : CMakeFiles/Lab1.dir/requires
 

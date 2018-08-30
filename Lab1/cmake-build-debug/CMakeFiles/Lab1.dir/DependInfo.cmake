@@ -4,7 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/algorithm.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/algorithm.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/bubbleSort.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/bubbleSort.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/generateFiles.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/generateFiles.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/insertionSort.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/insertionSort.cpp.obj"
   "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/main.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/main.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/mergeSort.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/mergeSort.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/sort.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/sort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

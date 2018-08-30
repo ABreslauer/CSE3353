@@ -80,7 +80,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/algorithm.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/algorithm.h">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/bubbleSort.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/bubbleSort.h">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/generateFiles.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/generateFiles.h">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/insertionSort.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/insertionSort.h">
+			<Option target="Lab1"/>
+		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/main.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/mergeSort.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/mergeSort.h">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/sort.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/sort.h">
 			<Option target="Lab1"/>
 		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab1/CMakeLists.txt">

@@ -122,6 +122,114 @@ Lab1/fast:
 	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/build
 .PHONY : Lab1/fast
 
+algorithm.obj: algorithm.cpp.obj
+
+.PHONY : algorithm.obj
+
+# target to build an object file
+algorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/algorithm.cpp.obj
+.PHONY : algorithm.cpp.obj
+
+algorithm.i: algorithm.cpp.i
+
+.PHONY : algorithm.i
+
+# target to preprocess a source file
+algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/algorithm.cpp.i
+.PHONY : algorithm.cpp.i
+
+algorithm.s: algorithm.cpp.s
+
+.PHONY : algorithm.s
+
+# target to generate assembly for a file
+algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/algorithm.cpp.s
+.PHONY : algorithm.cpp.s
+
+bubbleSort.obj: bubbleSort.cpp.obj
+
+.PHONY : bubbleSort.obj
+
+# target to build an object file
+bubbleSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/bubbleSort.cpp.obj
+.PHONY : bubbleSort.cpp.obj
+
+bubbleSort.i: bubbleSort.cpp.i
+
+.PHONY : bubbleSort.i
+
+# target to preprocess a source file
+bubbleSort.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/bubbleSort.cpp.i
+.PHONY : bubbleSort.cpp.i
+
+bubbleSort.s: bubbleSort.cpp.s
+
+.PHONY : bubbleSort.s
+
+# target to generate assembly for a file
+bubbleSort.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/bubbleSort.cpp.s
+.PHONY : bubbleSort.cpp.s
+
+generateFiles.obj: generateFiles.cpp.obj
+
+.PHONY : generateFiles.obj
+
+# target to build an object file
+generateFiles.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/generateFiles.cpp.obj
+.PHONY : generateFiles.cpp.obj
+
+generateFiles.i: generateFiles.cpp.i
+
+.PHONY : generateFiles.i
+
+# target to preprocess a source file
+generateFiles.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/generateFiles.cpp.i
+.PHONY : generateFiles.cpp.i
+
+generateFiles.s: generateFiles.cpp.s
+
+.PHONY : generateFiles.s
+
+# target to generate assembly for a file
+generateFiles.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/generateFiles.cpp.s
+.PHONY : generateFiles.cpp.s
+
+insertionSort.obj: insertionSort.cpp.obj
+
+.PHONY : insertionSort.obj
+
+# target to build an object file
+insertionSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/insertionSort.cpp.obj
+.PHONY : insertionSort.cpp.obj
+
+insertionSort.i: insertionSort.cpp.i
+
+.PHONY : insertionSort.i
+
+# target to preprocess a source file
+insertionSort.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/insertionSort.cpp.i
+.PHONY : insertionSort.cpp.i
+
+insertionSort.s: insertionSort.cpp.s
+
+.PHONY : insertionSort.s
+
+# target to generate assembly for a file
+insertionSort.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/insertionSort.cpp.s
+.PHONY : insertionSort.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -149,6 +257,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mergeSort.obj: mergeSort.cpp.obj
+
+.PHONY : mergeSort.obj
+
+# target to build an object file
+mergeSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/mergeSort.cpp.obj
+.PHONY : mergeSort.cpp.obj
+
+mergeSort.i: mergeSort.cpp.i
+
+.PHONY : mergeSort.i
+
+# target to preprocess a source file
+mergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/mergeSort.cpp.i
+.PHONY : mergeSort.cpp.i
+
+mergeSort.s: mergeSort.cpp.s
+
+.PHONY : mergeSort.s
+
+# target to generate assembly for a file
+mergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/mergeSort.cpp.s
+.PHONY : mergeSort.cpp.s
+
+sort.obj: sort.cpp.obj
+
+.PHONY : sort.obj
+
+# target to build an object file
+sort.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/sort.cpp.obj
+.PHONY : sort.cpp.obj
+
+sort.i: sort.cpp.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/sort.cpp.i
+.PHONY : sort.cpp.i
+
+sort.s: sort.cpp.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab1.dir\build.make CMakeFiles/Lab1.dir/sort.cpp.s
+.PHONY : sort.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +320,27 @@ help:
 	@echo ... Lab1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... algorithm.obj
+	@echo ... algorithm.i
+	@echo ... algorithm.s
+	@echo ... bubbleSort.obj
+	@echo ... bubbleSort.i
+	@echo ... bubbleSort.s
+	@echo ... generateFiles.obj
+	@echo ... generateFiles.i
+	@echo ... generateFiles.s
+	@echo ... insertionSort.obj
+	@echo ... insertionSort.i
+	@echo ... insertionSort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mergeSort.obj
+	@echo ... mergeSort.i
+	@echo ... mergeSort.s
+	@echo ... sort.obj
+	@echo ... sort.i
+	@echo ... sort.s
 .PHONY : help
 
 
