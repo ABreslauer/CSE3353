@@ -48,18 +48,8 @@ int main(int argc, char* argv[]) {
     */
 
     algorithm a;
-    for (int i = 0; i < 3; i++) {  //Sort by all types of search algorithms (Bubble, Insertion, Merge)
-
-        if (i == 0) {
-            a.select(algorithm::Bubble);
-        } else if (i == 1) {
-            a.select(algorithm::Merge);
-        } else if (i == 2) {
-            a.select(algorithm::Insertion);
-        } else {
-            cout << "There is not an algorithm past this point." << endl;
-        }
-
+    for (int i = 0; i < 1; i++) {  //Sort by all types of search algorithms (Bubble, Insertion, Merge)
+        a.select(algorithm::sortingAlgorithms(i));
         for (int j = 0; j < fileTypes.size(); j++) {         //Sort by all types of file randomization types
             for (int k = 0; k < fileSizes.size(); k++) {
                 a.loadFromFile(fileTypes[j] + to_string(fileSizes[k]));

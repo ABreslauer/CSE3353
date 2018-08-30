@@ -50,7 +50,6 @@ void algorithm::saveToFile(std::string outputFile) {
 }
 
 void algorithm::select(algorithm::sortingAlgorithms a) {
-    std::cout << "selected algorithm number = " << a << std::endl;
     selectedAlgorithm = a;
 }
 

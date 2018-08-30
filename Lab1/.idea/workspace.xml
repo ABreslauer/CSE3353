@@ -23,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -68,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="algorithm.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="algorithm.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+            <state relative-caret-position="420">
+              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
               <folding>
                 <element signature="e#42#64#0" expanded="true" />
               </folding>
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/mergeSort.cpp" />
         <option value="$PROJECT_DIR$/mergeSort.h" />
         <option value="$PROJECT_DIR$/generateFiles.cpp" />
-        <option value="$PROJECT_DIR$/algorithm.cpp" />
         <option value="$PROJECT_DIR$/bubbleSort.cpp" />
+        <option value="$PROJECT_DIR$/algorithm.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -120,10 +120,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2528" />
-    <option name="y" value="-13" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
+    <option name="x" value="340" />
+    <option name="y" value="-22" />
+    <option name="width" value="1932" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -179,23 +179,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535586062665</updated>
-      <workItem from="1535586063900" duration="4377000" />
+      <workItem from="1535586063900" duration="6209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4377000" />
+    <option name="totallyTimeSpent" value="6209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20052083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15039062" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.3289777" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" weight="0.4548353" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.4548353" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.3289777" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
@@ -316,16 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bubbleSort.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -335,10 +325,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        <state relative-caret-position="420">
+          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
