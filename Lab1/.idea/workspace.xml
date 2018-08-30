@@ -23,46 +23,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="MergeReverseOrderOutput10.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputFiles/MergeReverseOrderOutput10.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleReverseOrderOutput10.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputFiles/BubbleReverseOrderOutput10.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="570">
+              <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generateFiles.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generateFiles.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generateFiles.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generateFiles.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#42#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="algorithm.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#93#110#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +48,8 @@
       <file leaf-file-name="algorithm.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+            <state relative-caret-position="340">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="e#42#64#0" expanded="true" />
               </folding>
@@ -83,8 +60,29 @@
       <file leaf-file-name="bubbleSort.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bubbleSort.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="e#42#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubbleSort.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bubbleSort.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionReverseOrderOutput10.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outputFiles/InsertionReverseOrderOutput10.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -104,8 +102,8 @@
         <option value="$PROJECT_DIR$/mergeSort.cpp" />
         <option value="$PROJECT_DIR$/mergeSort.h" />
         <option value="$PROJECT_DIR$/generateFiles.cpp" />
-        <option value="$PROJECT_DIR$/bubbleSort.cpp" />
         <option value="$PROJECT_DIR$/algorithm.cpp" />
+        <option value="$PROJECT_DIR$/bubbleSort.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -179,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535586062665</updated>
-      <workItem from="1535586063900" duration="7629000" />
+      <workItem from="1535586063900" duration="8934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7629000" />
+    <option name="totallyTimeSpent" value="8934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -219,13 +217,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bubbleSort.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insertionSort.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -293,9 +284,6 @@
     <entry file="file://$PROJECT_DIR$/outputFiles/InsertionTwentyPercentOutput10.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputFiles/InsertionRandomOutput10.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/generateFiles.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -316,27 +304,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bubbleSort.cpp">
+    <entry file="file://$PROJECT_DIR$/outputFiles/BubbleRandomOutput10000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/BubbleRandomOutput100000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/InsertionReverseOrderOutput10000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/InsertionThirtyPercentOutput10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/InsertionRandomOutput1000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/BubbleThirtyPercentOutput100000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/BubbleReverseOrderOutput10000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/BubbleReverseOrderOutput100000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/BubbleReverseOrderOutput1000.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/InsertionRandomOutput10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/InsertionReverseOrderOutput10.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state>
+          <caret selection-end-line="10" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inputFiles/ReverseOrder10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bubbleSort.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/BubbleReverseOrderOutput10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        <state relative-caret-position="340">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="e#42#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bubbleSort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#42#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outputFiles/MergeReverseOrderOutput10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="570">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

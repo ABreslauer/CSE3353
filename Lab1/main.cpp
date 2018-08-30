@@ -11,12 +11,17 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
+    /**
+     * The different type of algorithms, randomization types, and randomization sizes for the entire project
+     */
     vector<string> searchAlgorithms = {"Bubble", "Merge", "Insertion"};
     vector<string> fileTypes = {"TwentyPercent", "Random", "ReverseOrder", "ThirtyPercent"};
-    vector<int> fileSizes = {10, 1000, 10000, 100000};
-    //fileTypes[d] + "Output" + toString(fileSizes[j]);  - input file string for loop
+    vector<int> fileSizes = {10, 1000, 10000, 100000};\
 
-
+    /**
+     * This is the code used to generate newly randomized files for each size and file type
+     */
+    /*
     generateFiles g;
     g.makeData(generateFiles::TwentyPercent, 10);
     g.makeData(generateFiles::TwentyPercent, 1000);
@@ -37,16 +42,25 @@ int main(int argc, char* argv[]) {
     g.makeData(generateFiles::ThirtyPercent, 1000);
     g.makeData(generateFiles::ThirtyPercent, 10000);
     g.makeData(generateFiles::ThirtyPercent, 100000);
-
+    */
+    /**
+     * This is the test case for if any algorithm wasn't working with any certain filetype, and was not deleted as an
+     * example of the in-order steps needed to run each algorithm type
+     */
     /*
     algorithm test;
-    test.select(algorithm::Merge);
-    test.loadFromFile("ThirtyPercent100000");
+    test.select(algorithm::Bubble);
+    test.loadFromFile("ReverseOrder10");
     test.execute();
+    test.displayResult();
     test.printStats();
     test.saveToFile("ThirtyPercentOutput100000");
     */
 
+    /**
+     * The loop that runs each type of algorithm across all of the files. It is done by loading in a sorting algorithm
+     * type, and then running each of the file randomization types across each algorithm at each different file size
+     */
     algorithm a;
     for (int i = 0; i < 3; i++) {  //Sort by all types of search algorithms (Bubble, Insertion, Merge)
         a.select(algorithm::sortingAlgorithms(i));
@@ -54,8 +68,7 @@ int main(int argc, char* argv[]) {
             for (int k = 0; k < fileSizes.size(); k++) {
                 a.loadFromFile(fileTypes[j] + to_string(fileSizes[k]));
                 a.execute();
-                a.saveToFile(searchAlgorithms[i] + fileTypes[j] + "Output" + to_string(
-                        fileSizes[k]));  //Output files are organized by algo type, randomization type, "output", and # of values
+                a.saveToFile(searchAlgorithms[i] + fileTypes[j] + "Output" + to_string(fileSizes[k]));
             }
         }
     }

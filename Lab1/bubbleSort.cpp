@@ -3,6 +3,8 @@
 //
 
 #include "bubbleSort.h"
+#include <iostream>
+
 bubbleSort::bubbleSort() {}
 
 void bubbleSort::execute() {
@@ -10,11 +12,11 @@ void bubbleSort::execute() {
     auto t1 = std::chrono::high_resolution_clock::now();
     while(isSwapped) {
         isSwapped = false;
-        for (int i = 0; i < nums.size(); i++) {
+        for (int i = 0; i < nums.size()-1; i++) {
             if (nums[i] > nums[i+1]) {
-                int temp = nums[i+1];
-                nums[i+1] = nums[i];
-                nums[i] = temp;
+                nums[i] += nums[i+1];
+                nums[i+1] = nums[i] - nums[i+1];
+                nums[i] -= nums[i+1];
                 isSwapped = true;
             }
         }
