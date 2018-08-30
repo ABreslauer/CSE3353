@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
     */
 
     algorithm a;
-    for (int i = 0; i < 2; i++) {  //Sort by all types of search algorithms (Bubble, Insertion, Merge)
+    for (int i = 0; i < 3; i++) {  //Sort by all types of search algorithms (Bubble, Insertion, Merge)
 
         if (i == 0) {
             a.select(algorithm::Bubble);
