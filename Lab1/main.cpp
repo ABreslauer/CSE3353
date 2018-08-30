@@ -48,7 +48,7 @@ int main(int argc, char* argv[]) {
     */
 
     algorithm a;
-    for (int i = 0; i < 1; i++) {  //Sort by all types of search algorithms (Bubble, Insertion, Merge)
+    for (int i = 0; i < 3; i++) {  //Sort by all types of search algorithms (Bubble, Insertion, Merge)
         a.select(algorithm::sortingAlgorithms(i));
         for (int j = 0; j < fileTypes.size(); j++) {         //Sort by all types of file randomization types
             for (int k = 0; k < fileSizes.size(); k++) {
@@ -58,6 +58,6 @@ int main(int argc, char* argv[]) {
                         fileSizes[k]));  //Output files are organized by algo type, randomization type, "output", and # of values
             }
         }
-        a.printStats();
     }
+    a.printStats();
 }
