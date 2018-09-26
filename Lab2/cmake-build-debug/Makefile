@@ -122,6 +122,87 @@ Lab2/fast:
 	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/build
 .PHONY : Lab2/fast
 
+Graph.obj: Graph.cpp.obj
+
+.PHONY : Graph.obj
+
+# target to build an object file
+Graph.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Graph.cpp.obj
+.PHONY : Graph.cpp.obj
+
+Graph.i: Graph.cpp.i
+
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
+Search.obj: Search.cpp.obj
+
+.PHONY : Search.obj
+
+# target to build an object file
+Search.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Search.cpp.obj
+.PHONY : Search.cpp.obj
+
+Search.i: Search.cpp.i
+
+.PHONY : Search.i
+
+# target to preprocess a source file
+Search.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Search.cpp.i
+.PHONY : Search.cpp.i
+
+Search.s: Search.cpp.s
+
+.PHONY : Search.s
+
+# target to generate assembly for a file
+Search.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Search.cpp.s
+.PHONY : Search.cpp.s
+
+SearchAlgorithms.obj: SearchAlgorithms.cpp.obj
+
+.PHONY : SearchAlgorithms.obj
+
+# target to build an object file
+SearchAlgorithms.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj
+.PHONY : SearchAlgorithms.cpp.obj
+
+SearchAlgorithms.i: SearchAlgorithms.cpp.i
+
+.PHONY : SearchAlgorithms.i
+
+# target to preprocess a source file
+SearchAlgorithms.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.i
+.PHONY : SearchAlgorithms.cpp.i
+
+SearchAlgorithms.s: SearchAlgorithms.cpp.s
+
+.PHONY : SearchAlgorithms.s
+
+# target to generate assembly for a file
+SearchAlgorithms.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.s
+.PHONY : SearchAlgorithms.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +239,15 @@ help:
 	@echo ... Lab2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Graph.obj
+	@echo ... Graph.i
+	@echo ... Graph.s
+	@echo ... Search.obj
+	@echo ... Search.i
+	@echo ... Search.s
+	@echo ... SearchAlgorithms.obj
+	@echo ... SearchAlgorithms.i
+	@echo ... SearchAlgorithms.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

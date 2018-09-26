@@ -80,6 +80,27 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/Algorithm.h">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/Graph.cpp">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/Graph.h">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/Search.cpp">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/Search.h">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/SearchAlgorithms.cpp">
+			<Option target="Lab2"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/SearchAlgorithms.h">
+			<Option target="Lab2"/>
+		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab2/main.cpp">
 			<Option target="Lab2"/>
 		</Unit>

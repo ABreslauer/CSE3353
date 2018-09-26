@@ -80,19 +80,97 @@ CMakeFiles/Lab2.dir/main.cpp.obj.provides: CMakeFiles/Lab2.dir/main.cpp.obj.requ
 CMakeFiles/Lab2.dir/main.cpp.obj.provides.build: CMakeFiles/Lab2.dir/main.cpp.obj
 
 
+CMakeFiles/Lab2.dir/Graph.cpp.obj: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/Graph.cpp.obj: ../Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/Graph.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.dir\Graph.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab2\Graph.cpp
+
+CMakeFiles/Lab2.dir/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/Graph.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab2\Graph.cpp > CMakeFiles\Lab2.dir\Graph.cpp.i
+
+CMakeFiles/Lab2.dir/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/Graph.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab2\Graph.cpp -o CMakeFiles\Lab2.dir\Graph.cpp.s
+
+CMakeFiles/Lab2.dir/Graph.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab2.dir/Graph.cpp.obj.requires
+
+CMakeFiles/Lab2.dir/Graph.cpp.obj.provides: CMakeFiles/Lab2.dir/Graph.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Graph.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab2.dir/Graph.cpp.obj.provides
+
+CMakeFiles/Lab2.dir/Graph.cpp.obj.provides.build: CMakeFiles/Lab2.dir/Graph.cpp.obj
+
+
+CMakeFiles/Lab2.dir/Search.cpp.obj: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/Search.cpp.obj: ../Search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.dir/Search.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.dir\Search.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab2\Search.cpp
+
+CMakeFiles/Lab2.dir/Search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/Search.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab2\Search.cpp > CMakeFiles\Lab2.dir\Search.cpp.i
+
+CMakeFiles/Lab2.dir/Search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/Search.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab2\Search.cpp -o CMakeFiles\Lab2.dir\Search.cpp.s
+
+CMakeFiles/Lab2.dir/Search.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab2.dir/Search.cpp.obj.requires
+
+CMakeFiles/Lab2.dir/Search.cpp.obj.provides: CMakeFiles/Lab2.dir/Search.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/Search.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab2.dir/Search.cpp.obj.provides
+
+CMakeFiles/Lab2.dir/Search.cpp.obj.provides.build: CMakeFiles/Lab2.dir/Search.cpp.obj
+
+
+CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj: ../SearchAlgorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lab2.dir\SearchAlgorithms.cpp.obj -c C:\Users\Andrew\CLionProjects\3353Labs\Lab2\SearchAlgorithms.cpp
+
+CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Andrew\CLionProjects\3353Labs\Lab2\SearchAlgorithms.cpp > CMakeFiles\Lab2.dir\SearchAlgorithms.cpp.i
+
+CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Andrew\CLionProjects\3353Labs\Lab2\SearchAlgorithms.cpp -o CMakeFiles\Lab2.dir\SearchAlgorithms.cpp.s
+
+CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.requires
+
+CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.provides: CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lab2.dir\build.make CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.provides
+
+CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.provides.build: CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj
+
+
 # Object files for target Lab2
 Lab2_OBJECTS = \
-"CMakeFiles/Lab2.dir/main.cpp.obj"
+"CMakeFiles/Lab2.dir/main.cpp.obj" \
+"CMakeFiles/Lab2.dir/Graph.cpp.obj" \
+"CMakeFiles/Lab2.dir/Search.cpp.obj" \
+"CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj"
 
 # External object files for target Lab2
 Lab2_EXTERNAL_OBJECTS =
 
 Lab2.exe: CMakeFiles/Lab2.dir/main.cpp.obj
+Lab2.exe: CMakeFiles/Lab2.dir/Graph.cpp.obj
+Lab2.exe: CMakeFiles/Lab2.dir/Search.cpp.obj
+Lab2.exe: CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj
 Lab2.exe: CMakeFiles/Lab2.dir/build.make
 Lab2.exe: CMakeFiles/Lab2.dir/linklibs.rsp
 Lab2.exe: CMakeFiles/Lab2.dir/objects1.rsp
 Lab2.exe: CMakeFiles/Lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Andrew\CLionProjects\3353Labs\Lab2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lab2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lab2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,6 +179,9 @@ CMakeFiles/Lab2.dir/build: Lab2.exe
 .PHONY : CMakeFiles/Lab2.dir/build
 
 CMakeFiles/Lab2.dir/requires: CMakeFiles/Lab2.dir/main.cpp.obj.requires
+CMakeFiles/Lab2.dir/requires: CMakeFiles/Lab2.dir/Graph.cpp.obj.requires
+CMakeFiles/Lab2.dir/requires: CMakeFiles/Lab2.dir/Search.cpp.obj.requires
+CMakeFiles/Lab2.dir/requires: CMakeFiles/Lab2.dir/SearchAlgorithms.cpp.obj.requires
 
 .PHONY : CMakeFiles/Lab2.dir/requires
 
