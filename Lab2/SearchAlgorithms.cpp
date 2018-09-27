@@ -214,6 +214,10 @@ int SearchAlgorithms::minDistance(std::vector<double> dist, std::vector<bool> vi
     return minIndex;
 }
 
+//Note important to the actual execution of the code, but if you see this then it means that you're looking:
+//It really bother me that I couldn't name the function A*(int start... &graph) because of the way C++ is handled.
+//That is all.
+//Please continue on, and have a nice day!
 double SearchAlgorithms::aStar(int start, int end, Graph &graph) {
     path.clear();
     numNodes = 0;

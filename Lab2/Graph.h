@@ -13,6 +13,7 @@ class Graph {
         int label = -999;
         std::vector<int> paths;
 
+        //I don't think this constructor is strictly necessary on smarter compilers, but for some reason my code wouldn't compile without it. Now, it's here, and it stays, I guess.
         Node(int nodeLabel, std::vector<int>pathVec) : label(nodeLabel), paths(pathVec) {};
     };
 
