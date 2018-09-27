@@ -27,5 +27,7 @@ public:
     void execute(int start, int end, Graph &graph) override;
 
     void normalize() override;
+
+    ~Search() {};
 };
 #endif //LAB2_SEARCH_H

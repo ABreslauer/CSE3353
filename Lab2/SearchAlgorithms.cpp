@@ -7,6 +7,23 @@
 #include <stack>
 #include "SearchAlgorithms.h"
 
+
+std::vector<int> SearchAlgorithms::getPath() {
+    return path;
+}
+
+int SearchAlgorithms::minDistance(std::vector<double> dist, std::vector<bool> visited, int numNodes) {
+    double min = 1000;
+    int minIndex = -1;
+    for(int i = 0; i < numNodes; i++){
+        if(!visited[i] && dist[i] <= min){
+            min = dist[i];
+            minIndex = i;
+        }
+    }
+    return minIndex;
+}
+
 void SearchAlgorithms::execute(Search *search, Graph &graph, int start, int end) {
     auto time1 = std::chrono::system_clock::now();
     double dist = 0;
@@ -165,10 +182,6 @@ double SearchAlgorithms::BFSIterative(int start, int end, Graph &graph){
 
 }
 
-std::vector<int> SearchAlgorithms::getPath() {
-    return path;
-}
-
 double SearchAlgorithms::dijkstra(int start, int end, Graph &graph) {
     path.clear();
     numNodes = 0;
@@ -200,18 +213,6 @@ double SearchAlgorithms::dijkstra(int start, int end, Graph &graph) {
         }
     }
     return -1;
-}
-
-int SearchAlgorithms::minDistance(std::vector<double> dist, std::vector<bool> visited, int numNodes) {
-    double min = 1000;
-    int minIndex = -1;
-    for(int i = 0; i < numNodes; i++){
-        if(!visited[i] && dist[i] <= min){
-            min = dist[i];
-            minIndex = i;
-        }
-    }
-    return minIndex;
 }
 
 //Note important to the actual execution of the code, but if you see this then it means that you're looking:

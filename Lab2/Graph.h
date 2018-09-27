@@ -40,6 +40,8 @@ public:
 
     bool isMatrix();
     bool isPath(int source, int destination);
+
+    ~Graph() {};
 };
 
 #endif //LAB2_GRAPH_H

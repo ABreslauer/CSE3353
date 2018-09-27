@@ -22,7 +22,7 @@ public:
     int minDistance(std::vector<double> dist, std::vector<bool> visited, int numNodes);
     double aStar(int start, int end, Graph &graph);
     std::vector<int> getPath();
-    ~SearchAlgorithms(){};
+    ~SearchAlgorithms() = default;
 };
 
 #endif //LAB2_SEARCHALGORITHMS_H
