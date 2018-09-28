@@ -19,7 +19,7 @@ protected:
     std::vector<std::tuple<Algorithm::searchTypes, double, int, int, double, std::vector<int>, double, double, bool>> stats;
 public:
     Algorithm(){};
-    ~Algorithm(){};
+    virtual ~Algorithm(){};
 
     virtual void selectAlgo(searchTypes types) = 0;
     virtual void printStats() = 0;
