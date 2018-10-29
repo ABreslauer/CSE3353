@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.cpp
+BruteForce.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.h
+fstream
+-
+iostream
+-
+algorithm
+-
+
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.h
+Node.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.h
+vector
+-
+cfloat
+-
+
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.cpp
+Node.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.h
+cmath
+-
+
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.h
+ostream
+-
+
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/main.cpp
+iostream
+-
+vector
+-
+BruteForce.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.h
+

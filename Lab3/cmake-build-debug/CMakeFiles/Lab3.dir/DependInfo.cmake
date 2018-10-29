@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/BruteForce.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/Node.cpp.obj"
   "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/main.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

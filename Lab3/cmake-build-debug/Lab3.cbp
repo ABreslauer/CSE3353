@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.h">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.h">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/main.cpp">
 			<Option target="Lab3"/>
 		</Unit>

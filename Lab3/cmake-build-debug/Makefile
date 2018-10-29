@@ -122,6 +122,60 @@ Lab3/fast:
 	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/build
 .PHONY : Lab3/fast
 
+BruteForce.obj: BruteForce.cpp.obj
+
+.PHONY : BruteForce.obj
+
+# target to build an object file
+BruteForce.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/BruteForce.cpp.obj
+.PHONY : BruteForce.cpp.obj
+
+BruteForce.i: BruteForce.cpp.i
+
+.PHONY : BruteForce.i
+
+# target to preprocess a source file
+BruteForce.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/BruteForce.cpp.i
+.PHONY : BruteForce.cpp.i
+
+BruteForce.s: BruteForce.cpp.s
+
+.PHONY : BruteForce.s
+
+# target to generate assembly for a file
+BruteForce.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/BruteForce.cpp.s
+.PHONY : BruteForce.cpp.s
+
+Node.obj: Node.cpp.obj
+
+.PHONY : Node.obj
+
+# target to build an object file
+Node.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Node.cpp.obj
+.PHONY : Node.cpp.obj
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Node.cpp.s
+.PHONY : Node.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +212,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Lab3
 	@echo ... edit_cache
+	@echo ... BruteForce.obj
+	@echo ... BruteForce.i
+	@echo ... BruteForce.s
+	@echo ... Node.obj
+	@echo ... Node.i
+	@echo ... Node.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
