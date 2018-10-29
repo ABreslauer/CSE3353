@@ -149,6 +149,33 @@ BruteForce.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/BruteForce.cpp.s
 .PHONY : BruteForce.cpp.s
 
+GenerateFiles.obj: GenerateFiles.cpp.obj
+
+.PHONY : GenerateFiles.obj
+
+# target to build an object file
+GenerateFiles.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/GenerateFiles.cpp.obj
+.PHONY : GenerateFiles.cpp.obj
+
+GenerateFiles.i: GenerateFiles.cpp.i
+
+.PHONY : GenerateFiles.i
+
+# target to preprocess a source file
+GenerateFiles.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/GenerateFiles.cpp.i
+.PHONY : GenerateFiles.cpp.i
+
+GenerateFiles.s: GenerateFiles.cpp.s
+
+.PHONY : GenerateFiles.s
+
+# target to generate assembly for a file
+GenerateFiles.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/GenerateFiles.cpp.s
+.PHONY : GenerateFiles.cpp.s
+
 Node.obj: Node.cpp.obj
 
 .PHONY : Node.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... BruteForce.obj
 	@echo ... BruteForce.i
 	@echo ... BruteForce.s
+	@echo ... GenerateFiles.obj
+	@echo ... GenerateFiles.i
+	@echo ... GenerateFiles.s
 	@echo ... Node.obj
 	@echo ... Node.i
 	@echo ... Node.s
