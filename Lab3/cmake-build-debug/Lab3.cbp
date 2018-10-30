@@ -86,6 +86,9 @@
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.h">
 			<Option target="Lab3"/>
 		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.h">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.cpp">
 			<Option target="Lab3"/>
 		</Unit>

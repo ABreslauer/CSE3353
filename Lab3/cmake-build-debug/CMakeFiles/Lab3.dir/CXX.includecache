@@ -24,6 +24,20 @@ vector
 cfloat
 -
 
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.cpp
+GenerateFiles.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.h
+random
+-
+ctime
+-
+
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.h
+iostream
+-
+fstream
+-
+
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.cpp
 Node.h
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.h
@@ -41,4 +55,6 @@ vector
 -
 BruteForce.h
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.h
+GenerateFiles.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.h
 

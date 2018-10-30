@@ -21,7 +21,7 @@ public:
     void read(std::string inFile);
 
     void doTSP();
-    double getPathLength();
+    double getPathLength(std::vector<Node>);
 
     std::vector<Node> getShortestPathNodes();
     double getShortestPathLength();

@@ -3,4 +3,4 @@ project(Lab3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lab3 main.cpp Node.h Node.cpp BruteForce.h BruteForce.cpp GenerateFiles.h GenerateFiles.cpp)
+add_executable(Lab3 main.cpp Node.h Node.cpp BruteForce.h BruteForce.cpp GenerateFiles.h GenerateFiles.cpp DynamicProgramming.h)

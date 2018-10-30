@@ -36,21 +36,25 @@ void BruteForce::read(std::string inFile) {
 }
 
 void BruteForce::doTSP() {
+    std::vector<Node> tempVec;
     do {
         totalPermutations++;
-        double temp = getPathLength();
-        if (temp < shortestPathLength) {
-            shortestPathLength = temp;
-            shortestPathNodes = nodeVec;
+        tempVec = nodeVec;
+        tempVec.push_back(tempVec[0]);
+        double tempLen = getPathLength(tempVec);
+
+        if (tempLen < shortestPathLength) {
+            shortestPathLength = tempLen;
+            shortestPathNodes = tempVec;
             std::cout << "Updated shortest path: " << shortestPathLength << std::endl;
         }
     } while(std::next_permutation(nodeVec.begin(), nodeVec.end()));
 }
 
-double BruteForce::getPathLength() {
+double BruteForce::getPathLength(std::vector<Node> tempVec) {
     double pathLength {};
-    for (int i = 0; i < nodeVec.size()-1; i++) {
-        pathLength += nodeVec[i].getDist(nodeVec[i+1]);
+    for (int i = 0; i < tempVec.size()-1; i++) {
+        pathLength += tempVec[i].getDist(tempVec[i+1]);
     }
     return pathLength;
 }
