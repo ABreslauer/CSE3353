@@ -5,6 +5,10 @@ CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../BruteForce.cpp
 CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../BruteForce.h
 CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../Node.h
 
+CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../DynamicProgramming.cpp
+CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../DynamicProgramming.h
+CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../Node.h
+
 CMakeFiles/Lab3.dir/GenerateFiles.cpp.obj: ../GenerateFiles.cpp
 CMakeFiles/Lab3.dir/GenerateFiles.cpp.obj: ../GenerateFiles.h
 
@@ -12,6 +16,7 @@ CMakeFiles/Lab3.dir/Node.cpp.obj: ../Node.cpp
 CMakeFiles/Lab3.dir/Node.cpp.obj: ../Node.h
 
 CMakeFiles/Lab3.dir/main.cpp.obj: ../BruteForce.h
+CMakeFiles/Lab3.dir/main.cpp.obj: ../DynamicProgramming.h
 CMakeFiles/Lab3.dir/main.cpp.obj: ../GenerateFiles.h
 CMakeFiles/Lab3.dir/main.cpp.obj: ../Node.h
 CMakeFiles/Lab3.dir/main.cpp.obj: ../main.cpp

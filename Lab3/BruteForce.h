@@ -16,7 +16,7 @@ private:
     std::vector<Node> shortestPathNodes;
     long totalPermutations {};
 public:
-    BruteForce();
+    BruteForce() = default;
     explicit BruteForce(const std::string& inFile);
     void read(std::string inFile);
 
@@ -26,6 +26,8 @@ public:
     std::vector<Node> getShortestPathNodes();
     double getShortestPathLength();
     long getTotalPermutations();
+
+    ~BruteForce() = default;
 };
 
 #endif //LAB3_BRUTEFORCE_H

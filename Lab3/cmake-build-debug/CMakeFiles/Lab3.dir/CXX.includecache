@@ -24,6 +24,22 @@ vector
 cfloat
 -
 
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.cpp
+DynamicProgramming.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.h
+fstream
+-
+iostream
+-
+
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.h
+Node.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.h
+cfloat
+-
+vector
+-
+
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.cpp
 GenerateFiles.h
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.h
@@ -57,4 +73,6 @@ BruteForce.h
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.h
 GenerateFiles.h
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.h
+DynamicProgramming.h
+C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.h
 

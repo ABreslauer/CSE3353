@@ -149,6 +149,33 @@ BruteForce.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/BruteForce.cpp.s
 .PHONY : BruteForce.cpp.s
 
+DynamicProgramming.obj: DynamicProgramming.cpp.obj
+
+.PHONY : DynamicProgramming.obj
+
+# target to build an object file
+DynamicProgramming.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj
+.PHONY : DynamicProgramming.cpp.obj
+
+DynamicProgramming.i: DynamicProgramming.cpp.i
+
+.PHONY : DynamicProgramming.i
+
+# target to preprocess a source file
+DynamicProgramming.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/DynamicProgramming.cpp.i
+.PHONY : DynamicProgramming.cpp.i
+
+DynamicProgramming.s: DynamicProgramming.cpp.s
+
+.PHONY : DynamicProgramming.s
+
+# target to generate assembly for a file
+DynamicProgramming.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/DynamicProgramming.cpp.s
+.PHONY : DynamicProgramming.cpp.s
+
 GenerateFiles.obj: GenerateFiles.cpp.obj
 
 .PHONY : GenerateFiles.obj
@@ -242,6 +269,9 @@ help:
 	@echo ... BruteForce.obj
 	@echo ... BruteForce.i
 	@echo ... BruteForce.s
+	@echo ... DynamicProgramming.obj
+	@echo ... DynamicProgramming.i
+	@echo ... DynamicProgramming.s
 	@echo ... GenerateFiles.obj
 	@echo ... GenerateFiles.i
 	@echo ... GenerateFiles.s

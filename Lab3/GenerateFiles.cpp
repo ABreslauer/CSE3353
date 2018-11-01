@@ -5,10 +5,6 @@
 #include <random>
 #include <ctime>
 
-GenerateFiles::GenerateFiles() {
-
-};
-
 GenerateFiles::GenerateFiles(const std::string& output, int nodeNum) {
     std::ofstream outFile;
     outFile.open(output);
@@ -21,7 +17,6 @@ GenerateFiles::GenerateFiles(const std::string& output, int nodeNum) {
             temp1 = (double)rand() / (double)1000;
             temp2 = (double)rand() / (double)1000;
             temp3 = (double)rand() / (double)1000;
-            std::cout << temp << ", " << temp1 << ", " << temp2 << ", " << temp3 << std::endl;
             outFile << temp << ", " << temp1 << ", " << temp2 << ", " << temp3 << std::endl;
         }
     }

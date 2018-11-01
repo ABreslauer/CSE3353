@@ -6,8 +6,6 @@
 #include <iostream>
 #include <algorithm>
 
-BruteForce::BruteForce() {}
-
 BruteForce::BruteForce(const std::string& inFile) {
     read(inFile);
 }

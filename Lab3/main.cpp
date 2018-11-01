@@ -2,16 +2,15 @@
 #include <vector>
 #include "BruteForce.h"
 #include "GenerateFiles.h"
+#include "DynamicProgramming.h"
 
 using namespace std;
 
 int main() {
-    Node n(0, 1.8, 9.2, 1.1);
-    cout << n.getDist(n) << endl;
 
-    GenerateFiles g("../Input_Files/test.txt", 6);
+    //GenerateFiles g("../Input_Files/test.txt", 4);
 
-
+    /*
     BruteForce b("../Input_Files/test.txt");
     b.doTSP();
     std::cout << "Total Permutations: " << b.getTotalPermutations() << endl;
@@ -24,6 +23,8 @@ int main() {
             cout << pathNodes[i].getNum() << ", ";
         }
     }
+    */
+    DynamicProgramming d("../Input_Files/test.txt");
 
     /*
     DynamicProgramming d("../Input_Files/test.txt");

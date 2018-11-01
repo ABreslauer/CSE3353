@@ -15,10 +15,14 @@ private:
     double shortestPathLength;
     std::vector<Node> shortestPathNodes;
     long totalPermutations {};
+    std::vector<std::vector<double>> nodeMatrix;
 public:
     DynamicProgramming() = default;
-    DynamicProgramming(const std::string& input);
+    explicit DynamicProgramming(const std::string& inFile);
 
+    void read(const std::string& inFile);
+    void formMatrix();
+    void wtfIsGoingOn();
     ~DynamicProgramming() = default;
 };
 #endif //LAB3_DYNAMICPROGRAMMING_H

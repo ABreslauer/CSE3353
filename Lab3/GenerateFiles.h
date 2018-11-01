@@ -10,8 +10,10 @@
 
 class GenerateFiles {
 public:
-    GenerateFiles();
+    GenerateFiles() = default;
     GenerateFiles(const std::string& output, int nodeNum);
+
+    ~GenerateFiles() = default;
 };
 
 #endif //LAB3_GENERATEFILES_H
