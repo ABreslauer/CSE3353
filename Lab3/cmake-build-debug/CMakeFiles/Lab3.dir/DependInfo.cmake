@@ -6,8 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/BruteForce.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/BruteForce.cpp.obj"
   "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Factory.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/Factory.cpp.obj"
   "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/GenerateFiles.cpp.obj"
-  "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/Node.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Graph.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/Graph.cpp.obj"
+  "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/TSPInterface.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/TSPInterface.cpp.obj"
   "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/main.cpp" "C:/Users/Andrew/CLionProjects/3353Labs/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

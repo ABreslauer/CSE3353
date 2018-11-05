@@ -10,10 +10,8 @@
 
 class GenerateFiles {
 public:
-    GenerateFiles() = default;
-    GenerateFiles(const std::string& output, int nodeNum);
-
-    ~GenerateFiles() = default;
+    static void generate(int nodeNum);
+    static double randDouble(int min, int max);
 };
 
 #endif //LAB3_GENERATEFILES_H

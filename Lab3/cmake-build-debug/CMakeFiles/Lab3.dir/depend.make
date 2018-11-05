@@ -3,21 +3,40 @@
 
 CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../BruteForce.cpp
 CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../BruteForce.h
-CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../Node.h
+CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../Graph.h
+CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../TSPInterface.h
+CMakeFiles/Lab3.dir/BruteForce.cpp.obj: ../interfaceInterface.h
 
 CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../DynamicProgramming.cpp
 CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../DynamicProgramming.h
-CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../Node.h
+CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../Graph.h
+CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../TSPInterface.h
+CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj: ../interfaceInterface.h
+
+CMakeFiles/Lab3.dir/Factory.cpp.obj: ../BruteForce.h
+CMakeFiles/Lab3.dir/Factory.cpp.obj: ../DynamicProgramming.h
+CMakeFiles/Lab3.dir/Factory.cpp.obj: ../Factory.cpp
+CMakeFiles/Lab3.dir/Factory.cpp.obj: ../Factory.h
+CMakeFiles/Lab3.dir/Factory.cpp.obj: ../Graph.h
+CMakeFiles/Lab3.dir/Factory.cpp.obj: ../TSPInterface.h
+CMakeFiles/Lab3.dir/Factory.cpp.obj: ../interfaceInterface.h
 
 CMakeFiles/Lab3.dir/GenerateFiles.cpp.obj: ../GenerateFiles.cpp
 CMakeFiles/Lab3.dir/GenerateFiles.cpp.obj: ../GenerateFiles.h
 
-CMakeFiles/Lab3.dir/Node.cpp.obj: ../Node.cpp
-CMakeFiles/Lab3.dir/Node.cpp.obj: ../Node.h
+CMakeFiles/Lab3.dir/Graph.cpp.obj: ../Graph.cpp
+CMakeFiles/Lab3.dir/Graph.cpp.obj: ../Graph.h
+
+CMakeFiles/Lab3.dir/TSPInterface.cpp.obj: ../Graph.h
+CMakeFiles/Lab3.dir/TSPInterface.cpp.obj: ../TSPInterface.cpp
+CMakeFiles/Lab3.dir/TSPInterface.cpp.obj: ../TSPInterface.h
+CMakeFiles/Lab3.dir/TSPInterface.cpp.obj: ../interfaceInterface.h
 
 CMakeFiles/Lab3.dir/main.cpp.obj: ../BruteForce.h
-CMakeFiles/Lab3.dir/main.cpp.obj: ../DynamicProgramming.h
+CMakeFiles/Lab3.dir/main.cpp.obj: ../Factory.h
 CMakeFiles/Lab3.dir/main.cpp.obj: ../GenerateFiles.h
-CMakeFiles/Lab3.dir/main.cpp.obj: ../Node.h
+CMakeFiles/Lab3.dir/main.cpp.obj: ../Graph.h
+CMakeFiles/Lab3.dir/main.cpp.obj: ../TSPInterface.h
+CMakeFiles/Lab3.dir/main.cpp.obj: ../interfaceInterface.h
 CMakeFiles/Lab3.dir/main.cpp.obj: ../main.cpp
 

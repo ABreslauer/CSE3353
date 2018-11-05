@@ -5,25 +5,16 @@
 #ifndef LAB3_DYNAMICPROGRAMMING_H
 #define LAB3_DYNAMICPROGRAMMING_H
 
-#include "Node.h"
-#include <cfloat>
+#include "TSPInterface.h"
+#include "Graph.h"
 #include <vector>
 
-class DynamicProgramming {
-private:
-    std::vector<Node> nodeVec;
-    double shortestPathLength = 100000;
-    std::vector<Node> shortestPathNodes;
-    long totalPermutations {};
-    std::vector<std::vector<double>> nodeMatrix;
+class DynamicProgramming : public TSPInterface {
 public:
-    DynamicProgramming() = default;
-    explicit DynamicProgramming(const std::string& inFile);
+    DynamicProgramming();
+    void execute(Graph& g) override;
+    double findPath(int start, std::vector<int> mid, int end, Graph& g);
 
-    void read(const std::string& inFile);
-    void doTSP();
-    double findPath(int start, std::vector<int> values, int end, std::vector<Node> nodeVec);
-
-    ~DynamicProgramming() = default;
 };
+
 #endif //LAB3_DYNAMICPROGRAMMING_H

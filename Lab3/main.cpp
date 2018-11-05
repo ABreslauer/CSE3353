@@ -1,46 +1,27 @@
 #include <iostream>
 #include <vector>
-#include "BruteForce.h"
 #include "GenerateFiles.h"
-#include "DynamicProgramming.h"
+#include "Graph.h"
+#include "interfaceInterface.h"
+#include "Factory.h"
+#include "BruteForce.h"
 
 using namespace std;
 
 int main() {
-
-    GenerateFiles g("../Input_Files/test.txt", 4);
-
-
-    BruteForce b("../Input_Files/test.txt");
-    b.doTSP();
-    std::cout << "Total Permutations: " << b.getTotalPermutations() << endl;
-    cout << "Path Length: " << b.getShortestPathLength() << endl;
-    vector<Node> pathNodes = b.getShortestPathNodes();
-    for (int i = 0; i < pathNodes.size(); i++) {
-        if (i == pathNodes.size() - 1) {
-            cout << pathNodes[i].getNum() << endl;
-        } else {
-            cout << pathNodes[i].getNum() << ", ";
-        }
+    Factory makeStuff;
+    interfaceInterface* b = makeStuff.getNewAlgo(Factory::TSPMethod::BF);
+    interfaceInterface* dP = makeStuff.getNewAlgo(Factory::TSPMethod::DP);
+    for (int i = 4; i <= 11; i++) {
+        GenerateFiles::generate(i);
+        Graph g;
+        g.loadNodes("../input.txt");
+        b->execute(g);
+        b->statsToFile("../outputFiles/bruteForce.csv");
+        dP->execute(g);
+        dP->statsToFile("../outputFiles/DP.csv");
+        cout << i << " nodes graph completed." << endl;
     }
-
-    DynamicProgramming d("../Input_Files/test.txt");
-    d.doTSP();
-
-    /*
-    DynamicProgramming d("../Input_Files/test.txt");
-    d.doTSP();
-    std::cout << "Total Permutations: " << d.getTotalPermutations() << endl;
-    cout << "Path Length: " << d.getShortestPathLength() << endl;
-    vector<Node> pathNodes = d.getShortestPathNodes();
-    for (int i = 0; i < pathNodes.size(); i++) {
-        if (i == pathNodes.size() - 1) {
-            cout << pathNodes[i].getNum() << endl;
-        } else {
-            cout << pathNodes[i].getNum() << ", ";
-        }
-    }
-    */
 
     std::cout << "Hello, World!" << std::endl;
     return 0;

@@ -1,0 +1,9 @@
+Type, Number of Nodes, Number of Permutations, Minimum Distance
+Dynamic Programming,4,2,11.981
+Dynamic Programming,5,6,19.4621
+Dynamic Programming,6,24,24.2534
+Dynamic Programming,7,120,29.2294
+Dynamic Programming,8,720,32.4501
+Dynamic Programming,9,5040,35.189
+Dynamic Programming,10,40320,37.2244
+Dynamic Programming,11,362880,39.111

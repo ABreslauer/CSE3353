@@ -5,29 +5,17 @@
 #ifndef LAB3_BRUTEFORCE_H
 #define LAB3_BRUTEFORCE_H
 
-#include "Node.h"
+#include "TSPInterface.h"
+#include "Graph.h"
+#include <deque>
 #include <vector>
-#include <cfloat>
 
-class BruteForce {
-private:
-    std::vector<Node> nodeVec;
-    double shortestPathLength = DBL_MAX;
-    std::vector<Node> shortestPathNodes;
-    long totalPermutations {};
+class BruteForce : public TSPInterface {
 public:
-    BruteForce() = default;
-    explicit BruteForce(const std::string& inFile);
-    void read(std::string inFile);
-
-    void doTSP();
-    double getPathLength(std::vector<Node>);
-
-    std::vector<Node> getShortestPathNodes();
-    double getShortestPathLength();
-    long getTotalPermutations();
-
-    ~BruteForce() = default;
+    BruteForce();
+    void execute(Graph& g) override;
+    void getAllPermutations(std::vector<int> vec, int curr, int max, Graph& g);
+    void swap(std::vector<int>& vec, int p1, int p2);
 };
 
 #endif //LAB3_BRUTEFORCE_H

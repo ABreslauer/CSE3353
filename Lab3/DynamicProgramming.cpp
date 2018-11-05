@@ -5,84 +5,52 @@
 #include "DynamicProgramming.h"
 #include <cmath>
 #include <algorithm>
-#include <fstream>
-#include <iostream>
 
-DynamicProgramming::DynamicProgramming(const std::string& inFile) {
-    read(inFile);
+DynamicProgramming::DynamicProgramming() {
+    type = 1;
 }
 
-void DynamicProgramming::read(const std::string& inFile) {
-    std::string temp1, temp2, temp3, temp4 {};
-    int nodeNum;
-    float nodeX, nodeY, nodeZ {};
-
-    std::fstream input;
-    input.open(inFile);
-    if (input.is_open()) {
-        while(input.good()) {
-            input >> temp1 >> temp2 >> temp3 >> temp4;
-            nodeNum = stoi(temp1);
-            nodeX = stof(temp2);
-            nodeY = stof(temp3);
-            nodeZ = stof(temp4);
-            Node n(nodeNum, nodeX, nodeY, nodeZ);
-            nodeVec.push_back(n);
-        }
-    }
-    else {
-        std::cout << "File not found" << std::endl;
-    }
-}
-
-void DynamicProgramming::doTSP() {
+void DynamicProgramming::execute(Graph &g) {
     std::vector<int> vec;
-    for (int i = 1; i < nodeVec.size(); i++) {
-        vec.push_back(nodeVec[i].getNum());
+    path.clear();
+    attemptNum = 0;
+    bestPath = 10000;
+    for (int i = 2; i < g.getNodeNum(); i++) {
+        vec.push_back(i);
     }
-    shortestPathNodes.push_back(nodeVec[0]);
-    shortestPathLength = findPath(1, vec, 1, nodeVec);
-    shortestPathNodes.push_back(nodeVec[0]);
-    std::cout << totalPermutations << " " << pow(nodeVec.size(), 2) * pow(2, nodeVec.size()) << std::endl;
-    std::cout << "Size of sPN: " << shortestPathNodes.size() << std::endl;
-    for (int i = 0; i < shortestPathNodes.size(); i++) {
-        if (i == shortestPathNodes.size()-1) {
-            std::cout << shortestPathNodes[i].getNum();
-        } else {
-            std::cout << shortestPathNodes[i].getNum() << ", ";
-        }
-    }
-
-    std::cout << std::endl;
+    path.push_back(1);
+    bestPath = findPath(1, vec, 1, g);
+    path.push_back(1);
+    std::cout << attemptNum << " " << pow(g.getNodeNum(), 2)*pow(2, g.getNodeNum()) << std::endl;
+    this->saveStats(types[this->type], g.getNodeNum(), attemptNum, bestPath);
 }
 
-double DynamicProgramming::findPath(int start, std::vector<int> values, int end, std::vector<Node> nodeVec) {
-    if (values.empty()) {
-        totalPermutations++;
-        return nodeVec[start].getDist(nodeVec[end]);
+double DynamicProgramming::findPath(int start, std::vector<int> mid, int end, Graph &g) {
+    if (mid.empty()) {
+        attemptNum++;
+        return g.getDist(start, end);
     }
     else {
         std::vector<double> sum;
-        for (int i = 0; i < values.size(); i++) {
-            std::vector<int> temp = values;
+        for (int i = 0; i < mid.size(); i++) {
+            std::vector<int> temp = mid;
             temp.erase(temp.begin() + i);
-            double min = 10000;
+            double min = 1000;
             int minIndex = 0;
-            for (int j = 2; j <= nodeVec.size(); j++) {
-                if(nodeVec[start].getDist(nodeVec[j]) < min) {
-                    min = nodeVec[start].getDist(nodeVec[j]);
+            for (int j = 2; j < g.getNodeNum(); j++) {
+                if (g.getDist(start, j) < min) {
+                    min = g.getDist(start, j);
                     minIndex = j;
                 }
             }
-            if (!(count(shortestPathNodes.begin(), shortestPathNodes.end(), minIndex))) {
-                shortestPathNodes.push_back(nodeVec[minIndex-1]);
+            if(!(count(path.begin(), path.end(), minIndex))) {
+                path.push_back(minIndex);
             }
-            //totalPermutations++;
-            sum.push_back((nodeVec[start].getDist(nodeVec[i]) + findPath(values[i], temp, end, nodeVec)));
+            sum.push_back(g.getDist(start, mid[i]) + findPath(mid[i], temp, end, g));
         }
-        double min = 10000;
+        double min = 1000;
         for (int i = 0; i < sum.size(); i++) {
-            if (sum[i] < min) {
+            if(sum[i] < min) {
                 min = sum[i];
             }
         }

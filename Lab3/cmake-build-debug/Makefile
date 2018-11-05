@@ -176,6 +176,33 @@ DynamicProgramming.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/DynamicProgramming.cpp.s
 .PHONY : DynamicProgramming.cpp.s
 
+Factory.obj: Factory.cpp.obj
+
+.PHONY : Factory.obj
+
+# target to build an object file
+Factory.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Factory.cpp.obj
+.PHONY : Factory.cpp.obj
+
+Factory.i: Factory.cpp.i
+
+.PHONY : Factory.i
+
+# target to preprocess a source file
+Factory.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Factory.cpp.i
+.PHONY : Factory.cpp.i
+
+Factory.s: Factory.cpp.s
+
+.PHONY : Factory.s
+
+# target to generate assembly for a file
+Factory.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Factory.cpp.s
+.PHONY : Factory.cpp.s
+
 GenerateFiles.obj: GenerateFiles.cpp.obj
 
 .PHONY : GenerateFiles.obj
@@ -203,32 +230,59 @@ GenerateFiles.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/GenerateFiles.cpp.s
 .PHONY : GenerateFiles.cpp.s
 
-Node.obj: Node.cpp.obj
+Graph.obj: Graph.cpp.obj
 
-.PHONY : Node.obj
+.PHONY : Graph.obj
 
 # target to build an object file
-Node.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Node.cpp.obj
-.PHONY : Node.cpp.obj
+Graph.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Graph.cpp.obj
+.PHONY : Graph.cpp.obj
 
-Node.i: Node.cpp.i
+Graph.i: Graph.cpp.i
 
-.PHONY : Node.i
+.PHONY : Graph.i
 
 # target to preprocess a source file
-Node.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Node.cpp.i
-.PHONY : Node.cpp.i
+Graph.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
 
-Node.s: Node.cpp.s
+Graph.s: Graph.cpp.s
 
-.PHONY : Node.s
+.PHONY : Graph.s
 
 # target to generate assembly for a file
-Node.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Node.cpp.s
-.PHONY : Node.cpp.s
+Graph.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
+TSPInterface.obj: TSPInterface.cpp.obj
+
+.PHONY : TSPInterface.obj
+
+# target to build an object file
+TSPInterface.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/TSPInterface.cpp.obj
+.PHONY : TSPInterface.cpp.obj
+
+TSPInterface.i: TSPInterface.cpp.i
+
+.PHONY : TSPInterface.i
+
+# target to preprocess a source file
+TSPInterface.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/TSPInterface.cpp.i
+.PHONY : TSPInterface.cpp.i
+
+TSPInterface.s: TSPInterface.cpp.s
+
+.PHONY : TSPInterface.s
+
+# target to generate assembly for a file
+TSPInterface.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/TSPInterface.cpp.s
+.PHONY : TSPInterface.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -272,12 +326,18 @@ help:
 	@echo ... DynamicProgramming.obj
 	@echo ... DynamicProgramming.i
 	@echo ... DynamicProgramming.s
+	@echo ... Factory.obj
+	@echo ... Factory.i
+	@echo ... Factory.s
 	@echo ... GenerateFiles.obj
 	@echo ... GenerateFiles.i
 	@echo ... GenerateFiles.s
-	@echo ... Node.obj
-	@echo ... Node.i
-	@echo ... Node.s
+	@echo ... Graph.obj
+	@echo ... Graph.i
+	@echo ... Graph.s
+	@echo ... TSPInterface.obj
+	@echo ... TSPInterface.i
+	@echo ... TSPInterface.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

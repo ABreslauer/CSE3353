@@ -5,29 +5,16 @@
 #include <random>
 #include <ctime>
 
-GenerateFiles::GenerateFiles(const std::string& output, int nodeNum) {
-    std::ofstream outFile;
-    outFile.open(output);
+void GenerateFiles::generate(int nodeNum){
     srand(time(NULL));
-    int temp {};
-    double temp1, temp2, temp3 {};
-    if (outFile.is_open()) {
-        for (int i = 0; i < nodeNum; i++) {
-            if (i != nodeNum-1) {
-                temp++;
-                temp1 = (double)rand() / (double)1000;
-                temp2 = (double)rand() / (double)1000;
-                temp3 = (double)rand() / (double)1000;
-                outFile << temp << ", " << temp1 << ", " << temp2 << ", " << temp3 << std::endl;
-            }
-            else {
-                temp++;
-                temp1 = (double)rand() / (double)1000;
-                temp2 = (double)rand() / (double)1000;
-                temp3 = (double)rand() / (double)1000;
-                outFile << temp << ", " << temp1 << ", " << temp2 << ", " << temp3;
-            }
-
-        }
+    std::ofstream outFile;
+    outFile.open("../input.txt");
+    for (int i = 1; i <= nodeNum; i++) {
+        outFile << i << ", " << randDouble(0, 20) << ", " << randDouble(0, 20) << ", " << randDouble(0, 20) << "\n";
     }
+    outFile.close();
+}
+
+double GenerateFiles::randDouble(int min, int max) {
+    return static_cast<double>(rand()) / (static_cast<double> (RAND_MAX/max)) + min;
 }

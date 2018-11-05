@@ -92,16 +92,31 @@
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.h">
 			<Option target="Lab3"/>
 		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Factory.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Factory.h">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.cpp">
 			<Option target="Lab3"/>
 		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/GenerateFiles.h">
 			<Option target="Lab3"/>
 		</Unit>
-		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.cpp">
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Graph.cpp">
 			<Option target="Lab3"/>
 		</Unit>
-		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Node.h">
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/Graph.h">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/TSPInterface.cpp">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/TSPInterface.h">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/interfaceInterface.h">
 			<Option target="Lab3"/>
 		</Unit>
 		<Unit filename="C:/Users/Andrew/CLionProjects/3353Labs/Lab3/main.cpp">

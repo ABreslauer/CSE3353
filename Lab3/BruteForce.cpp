@@ -2,73 +2,47 @@
 // Created by Andrew on 10/28/2018.
 //
 #include "BruteForce.h"
-#include <fstream>
-#include <iostream>
-#include <algorithm>
 
-BruteForce::BruteForce(const std::string& inFile) {
-    read(inFile);
+BruteForce::BruteForce() {
+    type = 0;
 }
 
-void BruteForce::read(std::string inFile) {
-    std::string temp1, temp2, temp3, temp4 {};
-    int nodeNum;
-    float nodeX, nodeY, nodeZ {};
+void BruteForce::execute(Graph &g) {
+    std::vector<int> vec;
+    attemptNum = 0;
+    bestPath = 100000;
+    for (int i = 0; i < 3; i++) {
+        vec.push_back(i);
+    }
+    getAllPermutations(vec, 0, vec.size()-1, g);
+    this->saveStats(types[this->type], g.getNodeNum(), attemptNum, bestPath);
+}
 
-    std::fstream input;
-    input.open(inFile);
-    if (input.is_open()) {
-        while(input.good()) {
-            input >> temp1 >> temp2 >> temp3 >> temp4;
-            nodeNum = stoi(temp1);
-            nodeX = stof(temp2);
-            nodeY = stof(temp3);
-            nodeZ = stof(temp4);
-            Node n(nodeNum, nodeX, nodeY, nodeZ);
-            nodeVec.push_back(n);
+void BruteForce::getAllPermutations(std::vector<int> vec, int curr, int max, Graph &g) {
+    if(curr==max) {
+        double sum = 0;
+        for (int i = 0; i < vec.size()-1; i++) {
+            sum += g.getDist(vec[i], vec[i+1]);
+        }
+        sum += g.getDist(vec[vec.size()-1], vec[0]);
+        attemptNum++;
+        if (sum < bestPath) {
+            bestPath = sum;
+            vec.push_back(vec[0]);
+            path = vec;
         }
     }
     else {
-        std::cout << "File not found" << std::endl;
+        for (int i = curr; i <= max; i++) {
+            swap(vec, curr, i);
+            getAllPermutations(vec, curr+1, max, g);
+            swap(vec, curr, i);
+        }
     }
 }
 
-void BruteForce::doTSP() {
-    std::vector<Node> tempVec;
-    do {
-        totalPermutations++;
-        tempVec = nodeVec;
-        tempVec.push_back(tempVec[0]);
-        for (int i = 0; i < tempVec.size(); i++) {
-            std::cout << "tempVec[" << i << "] = " << tempVec[i].getNum() << std::endl;
-        }
-        double tempLen = getPathLength(tempVec);
-        std::cout << "tempLen = " << tempLen << std::endl << std::endl;
-        if (tempLen < shortestPathLength) {
-            shortestPathLength = tempLen;
-            shortestPathNodes = tempVec;
-            std::cout << "Updated shortest path: " << shortestPathLength << std::endl;
-        }
-    } while(std::next_permutation(nodeVec.begin(), nodeVec.end()));
-}
-
-double BruteForce::getPathLength(std::vector<Node> tempVec) {
-    double pathLength {};
-    for (int i = 0; i < tempVec.size()-1; i++) {
-        pathLength += tempVec[i].getDist(tempVec[i+1]);
-    }
-    pathLength += tempVec[tempVec.size()].getDist(tempVec[0]);
-    return pathLength;
-}
-
-std::vector<Node> BruteForce::getShortestPathNodes() {
-    return shortestPathNodes;
-}
-
-double BruteForce::getShortestPathLength() {
-    return shortestPathLength;
-}
-
-long BruteForce::getTotalPermutations() {
-    return totalPermutations;
+void BruteForce::swap(std::vector<int> &vec, int p1, int p2) {
+    int temp = vec[p1];
+    vec[p1] = vec[p2];
+    vec[p2] = temp;
 }

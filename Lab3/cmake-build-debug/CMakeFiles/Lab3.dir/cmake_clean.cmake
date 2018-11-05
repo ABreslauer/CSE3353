@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab3.dir/main.cpp.obj"
-  "CMakeFiles/Lab3.dir/Node.cpp.obj"
   "CMakeFiles/Lab3.dir/BruteForce.cpp.obj"
   "CMakeFiles/Lab3.dir/GenerateFiles.cpp.obj"
   "CMakeFiles/Lab3.dir/DynamicProgramming.cpp.obj"
+  "CMakeFiles/Lab3.dir/Graph.cpp.obj"
+  "CMakeFiles/Lab3.dir/Factory.cpp.obj"
+  "CMakeFiles/Lab3.dir/TSPInterface.cpp.obj"
   "Lab3.pdb"
   "Lab3.exe"
   "Lab3.exe.manifest"
