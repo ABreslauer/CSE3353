@@ -27,6 +27,10 @@ cfloat
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.cpp
 DynamicProgramming.h
 C:/Users/Andrew/CLionProjects/3353Labs/Lab3/DynamicProgramming.h
+cmath
+-
+algorithm
+-
 fstream
 -
 iostream

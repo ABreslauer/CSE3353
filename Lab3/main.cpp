@@ -8,9 +8,9 @@ using namespace std;
 
 int main() {
 
-    //GenerateFiles g("../Input_Files/test.txt", 4);
+    GenerateFiles g("../Input_Files/test.txt", 4);
 
-    /*
+
     BruteForce b("../Input_Files/test.txt");
     b.doTSP();
     std::cout << "Total Permutations: " << b.getTotalPermutations() << endl;
@@ -23,8 +23,9 @@ int main() {
             cout << pathNodes[i].getNum() << ", ";
         }
     }
-    */
+
     DynamicProgramming d("../Input_Files/test.txt");
+    d.doTSP();
 
     /*
     DynamicProgramming d("../Input_Files/test.txt");

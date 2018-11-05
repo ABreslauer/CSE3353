@@ -39,8 +39,11 @@ void BruteForce::doTSP() {
         totalPermutations++;
         tempVec = nodeVec;
         tempVec.push_back(tempVec[0]);
+        for (int i = 0; i < tempVec.size(); i++) {
+            std::cout << "tempVec[" << i << "] = " << tempVec[i].getNum() << std::endl;
+        }
         double tempLen = getPathLength(tempVec);
-
+        std::cout << "tempLen = " << tempLen << std::endl << std::endl;
         if (tempLen < shortestPathLength) {
             shortestPathLength = tempLen;
             shortestPathNodes = tempVec;
@@ -54,6 +57,7 @@ double BruteForce::getPathLength(std::vector<Node> tempVec) {
     for (int i = 0; i < tempVec.size()-1; i++) {
         pathLength += tempVec[i].getDist(tempVec[i+1]);
     }
+    pathLength += tempVec[tempVec.size()].getDist(tempVec[0]);
     return pathLength;
 }
 

@@ -46,7 +46,11 @@ double Node::getZ() const {
 }
 
 double Node::getDist(const Node& rhs) {
-    return std::sqrt(pow((rhs.getX() - x),2) + pow((rhs.getY() - y),2) + pow((rhs.getZ() - z),2));
+    double sum {};
+    sum += pow(x - rhs.getX(), 2);
+    sum += pow(y - rhs.getY(), 2);
+    sum += pow(z - rhs.getZ(), 2);
+    return cbrt(sum);
 }
 
 bool Node::operator==(int n) {

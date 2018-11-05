@@ -12,7 +12,7 @@
 class DynamicProgramming {
 private:
     std::vector<Node> nodeVec;
-    double shortestPathLength;
+    double shortestPathLength = 100000;
     std::vector<Node> shortestPathNodes;
     long totalPermutations {};
     std::vector<std::vector<double>> nodeMatrix;
@@ -21,8 +21,9 @@ public:
     explicit DynamicProgramming(const std::string& inFile);
 
     void read(const std::string& inFile);
-    void formMatrix();
-    void wtfIsGoingOn();
+    void doTSP();
+    double findPath(int start, std::vector<int> values, int end, std::vector<Node> nodeVec);
+
     ~DynamicProgramming() = default;
 };
 #endif //LAB3_DYNAMICPROGRAMMING_H
