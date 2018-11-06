@@ -11,7 +11,7 @@ void BruteForce::execute(Graph &g) {
     std::vector<int> vec;
     attemptNum = 0;
     bestPath = 100000;
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < g.getNodeNum(); i++) {
         vec.push_back(i);
     }
     getAllPermutations(vec, 0, vec.size()-1, g);
@@ -22,10 +22,12 @@ void BruteForce::getAllPermutations(std::vector<int> vec, int curr, int max, Gra
     if(curr==max) {
         double sum = 0;
         for (int i = 0; i < vec.size()-1; i++) {
-            sum += g.getDist(vec[i], vec[i+1]);
+            sum += g.getDist(vec[i], vec[i + 1]);
         }
+
         sum += g.getDist(vec[vec.size()-1], vec[0]);
         attemptNum++;
+
         if (sum < bestPath) {
             bestPath = sum;
             vec.push_back(vec[0]);

@@ -12,6 +12,8 @@ int main() {
     Factory makeStuff;
     interfaceInterface* b = makeStuff.getNewAlgo(Factory::TSPMethod::BF);
     interfaceInterface* dP = makeStuff.getNewAlgo(Factory::TSPMethod::DP);
+    //The looped section of code is for use only for generating data
+    /*
     for (int i = 4; i <= 11; i++) {
         GenerateFiles::generate(i);
         Graph g;
@@ -22,7 +24,15 @@ int main() {
         dP->statsToFile("../outputFiles/DP.csv");
         cout << i << " nodes graph completed." << endl;
     }
+     */
+    int graphSize = 4;      //Overwrite graphSize to be the size of the graph you want to test
+    GenerateFiles::generate(graphSize);
+    Graph gr;
+    gr.loadNodes("../input.txt");
+    b->execute(gr);
+    b->statsToFile("../outputFiles/bruteForce.csv");
+    dP->execute(gr);
+    dP->statsToFile("../outputFiles/DP.csv");
 
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
