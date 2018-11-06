@@ -12,7 +12,7 @@ int main() {
     Factory makeStuff;
     interfaceInterface* b = makeStuff.getNewAlgo(Factory::TSPMethod::BF);
     interfaceInterface* dP = makeStuff.getNewAlgo(Factory::TSPMethod::DP);
-    //The looped section of code is for use only for generating data
+    //The looped section of code is for use only for generating data over multiple graph sizes
     /*
     for (int i = 4; i <= 11; i++) {
         GenerateFiles::generate(i);
