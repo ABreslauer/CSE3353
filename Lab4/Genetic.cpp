@@ -1,7 +1,6 @@
 //
 // Created by Andrew on 11/27/2018.
 //
-
 #include "Genetic.h"
 #include <random>
 Genetic::Genetic() {
@@ -15,13 +14,9 @@ void Genetic::execute(Graph &g) {
         crossover(parentIndex[0], parentIndex[1], g);
     }
     Solution best = findMin();
-    for(int i = 0; i < best.getPath().size(); i++){
-        std::cout << best.getPath()[i] << " ";
-    }
-    std::cout << "Fitness: " << best.getScore() << std::endl;
+    //cout << "Fitness: " << best.getScore() << endl;
     meanFitness += best.getScore();
     iterNum++;
-    std::cout << "Current Avg: " << getMean() << std::endl;
     saveStats(types[type], g.getNodeNum(), attemptNum, best.getScore());
 }
 
@@ -35,13 +30,13 @@ void Genetic::initializePop(Graph &g){
     }
 }
 
-Solution Genetic::mutate(Solution iSuck, Graph &g) {
-    std::uniform_int_distribution<int> distribution(1,int(iSuck.getPath().size())-1);
+Solution Genetic::mutate(Solution unlucky, Graph &g) {
+    std::uniform_int_distribution<int> distribution(1,unlucky.getPath().size()-1);
     std::default_random_engine generator;
     int index1 = distribution(generator);
     int index2 = distribution(generator);
-    iSuck.swapSolution(index1, index2, g);
-    return iSuck;
+    unlucky.swapSolution(index1, index2, g);
+    return unlucky;
 }
 
 void Genetic::selectParents(Genetic::selectionType method) {
@@ -87,15 +82,16 @@ void Genetic::selectParents(Genetic::selectionType method) {
     }
 }
 void Genetic::crossover(int momIndex, int dadIndex, Graph& g) {
-    attemptNum++;
+
     std::vector<int> child1Path, child2Path;
     Solution child1(g), child2(g);
     std::vector<int> parent1 = pop[momIndex].getPath();
     std::vector<int> parent2 = pop[dadIndex].getPath();
-    std::uniform_int_distribution<int> distribution(1,int(child1.getPath().size())-1);
+    std::uniform_int_distribution<int> distribution(1,child1.getPath().size()-1);
     std::default_random_engine generator;
     int cutoff = distribution(generator);
     for(int i = 0; i < parent1.size(); i++){
+        attemptNum++;
         if(i < cutoff){
             child1Path.push_back(parent1[i]);
             child2Path.push_back(parent2[i]);
@@ -135,4 +131,3 @@ Solution Genetic::findMin() {
 float Genetic::getMean() {
     return meanFitness/iterNum;
 }
-

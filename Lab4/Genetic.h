@@ -8,12 +8,12 @@
 #include "TSPInterface.h"
 
 class Genetic : public TSPInterface {
-    int popSize = 100;
+    int popSize = 1000;
     std::vector<Solution> pop;
     int parentIndex[2] = {0,0};
-    float mutationRate = 0.25;
+    float mutationRate = 0.10;
     int iterNum = 0;
-    int maxGens = 3000;
+    int maxGens = 5000;
     float meanFitness = 0;
     void initializePop(Graph& g);
     Solution findMin();

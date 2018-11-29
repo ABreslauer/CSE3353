@@ -14,19 +14,21 @@ int main() {
     interfaceInterface* t = makeStuff.getNewAlgo(Factory::TSPMethod::TSPTabu);
     interfaceInterface* g = makeStuff.getNewAlgo(Factory::TSPMethod::TSPGenetic);
 
-    for (int i = 4; i <= 125; i++) {
+    for (int i = 4; i <= 15; i++) {
         GenerateFiles::generate(i);
         cout << "i = " << i << endl;
         Graph graph;
         graph.loadNodes("../input.txt");
-        //b->execute(graph);
-        //d->execute(graph);
-        //t->execute(graph);
+        if (i <= 10) {
+            b->execute(graph);
+            d->execute(graph);
+        }
+        t->execute(graph);
         g->execute(graph);
     }
-    //b->statsToFile("../outputFiles/bruteForce.csv");
-    //d->statsToFile("../outputFiles/DP.csv");
-    //t->statsToFile("../outputFiles/tabuOutput.csv");
+    b->statsToFile("../outputFiles/bruteForce.csv");
+    d->statsToFile("../outputFiles/DP.csv");
+    t->statsToFile("../outputFiles/tabuOutput.csv");
     g->statsToFile("../outputFiles/geneticOutput.csv");
     return 0;
 }

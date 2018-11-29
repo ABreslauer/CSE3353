@@ -1,9 +1,8 @@
 Type, Number of Nodes, Number of Permutations, Minimum Distance
-Brute Force,4,24,22.9582
-Brute Force,5,120,27.8956
-Brute Force,6,720,31.827
-Brute Force,7,5040,34.5051
-Brute Force,8,40320,37.0907
-Brute Force,9,362880,39.4918
-Brute Force,10,3628800,40.879
-Brute Force,11,39916800,43.5064
+Brute Force,4,24,16.6766
+Brute Force,5,120,24.702
+Brute Force,6,720,26.7607
+Brute Force,7,5040,33.3286
+Brute Force,8,40320,41.7949
+Brute Force,9,362880,41.9767
+Brute Force,10,3628800,42.8952
